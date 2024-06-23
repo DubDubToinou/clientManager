@@ -1,3 +1,35 @@
+:root{
+    --background-color: #EFF1C5;
+    --background-primary: #06a5dc;
+    --bs-primary: #002E2C;
+    --bs-secondary: #FFD662;
+    --bs-tertiary: #E5989B;
+    --bs-quaternary: #F4ACB7;
+    --bs-quinary: #F7D1BA;
+    --bs-light: #F7F7FF;
+    --bs-dark: #2B2D42;
+    --bs-danger: #FF6B6B;
+    --bs-success: #04a804;
+    --bs-warning: #FFD662;
+    --bs-info: #00B4D8;
+    --bs-font: 'Roboto', sans-serif;
+    --bs-font-size: 1rem;
+    --bs-font-weight: 400;
+    --bs-line-height: 1.5;
+}
+
 body {
-    background-color: skyblue;
+    background-color: var(--background-color);
+    color: var(--bs-primary)
+}
+
+.btn-primary {
+    background-color: var(--background-primary);
+    color: var(--bs-light);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3ac5f6;
+    color: var(--bs-light);
 }
