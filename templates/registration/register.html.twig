@@ -17,9 +17,9 @@
         {{ form_row(registrationForm.plainPassword, {
             label: 'Password'
         }) }}
-        {#        {{ form_row(registrationForm.agreeTerms) }} #}
 
-        <button type="submit" class="btn btn-primary">S'inscrire</button>
+        <button type="submit" class="btn btn-lg btn-primary">S'inscrire</button>
+        <a href="{{ path('app_login') }}" class="btn btn-lg btn-success">J'ai déjà un compte</a>
         {{ form_end(registrationForm) }}
     </div>
 {% endblock %}
